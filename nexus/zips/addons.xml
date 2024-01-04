@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons>
+	<addon id="repository.preshow" name="Preshow Experience Repository" version="0.1.0" provider-name="PreshowExperience">
+		<extension point="xbmc.addon.repository" name="Preshow Experience Repository">
+			<dir minversion="20.0.0">
+				<info compressed="false">https://raw.githubusercontent.com/PreShowExperience/repository.preshowexperience/main/nexus/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/PreShowExperience/repository.preshow/main/nexus/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/PreShowExperience/repository.preshow/main/nexus/zips/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Preshow Experience Repository</summary>
+			<description>Preshow Experience Repository</description>
+			<disclaimer></disclaimer>
+			<platform>all</platform>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
+    <addon id="script.preshowexperience" name="PreShow Experience" version="0.2.5" provider-name="PreShowExperience">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+			<import addon="script.module.beautifulsoup4" version="4.9.3" />
+			<import addon="script.module.requests" version="2.22.0.1" />
+		</requires>
+		<extension point="xbmc.python.script" library="addon.py">
+			<provides>executable</provides>
+		</extension>
+		  <extension point="kodi.context.item" library="context.py">
+		<item>
+		  <label>32000</label>
+		  <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(seasons) | Container.Content(tvshows) | Container.Content(playlists)</visible>
+		</item>
+	  </extension>
+	  <extension point="xbmc.service" library="resources/lib/service.py" start="login" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Movie theater preshow experience</summary>
+			<description lang="en">Create a completely customizable movie preshow containing trivia, video bumpers or trailer for your home theater.</description>
+			<platform>all</platform>
+			<license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</license>
+			<forum>https://preshowexperience.com/forums/</forum>
+			<website>https://preshowexperience.com/</website>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+			<news>PreShow Experience for Kodi</news>
+		</extension>
+	</addon>
+    <addon id="script.preshowexperience" name="PreShow Experience" version="0.2.4" provider-name="PreShowExperience">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+			<import addon="script.module.beautifulsoup4" version="4.9.3" />
+			<import addon="script.module.requests" version="2.22.0.1" />
+		</requires>
+		<extension point="xbmc.python.script" library="addon.py">
+			<provides>executable</provides>
+		</extension>
+		  <extension point="kodi.context.item" library="context.py">
+		<item>
+		  <label>32000</label>
+		  <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(seasons) | Container.Content(tvshows) | Container.Content(playlists)</visible>
+		</item>
+	  </extension>
+	  <extension point="xbmc.service" library="resources/lib/service.py" start="login" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Movie theater preshow experience</summary>
+			<description lang="en">Create a completely customizable movie preshow containing trivia, video bumpers or trailer for your home theater.</description>
+			<platform>all</platform>
+			<license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</license>
+			<forum>https://preshowexperience.com/forums/</forum>
+			<website>https://preshowexperience.com/</website>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+			<news>PreShow Experience for Kodi</news>
+		</extension>
+	</addon>
+    <addon id="script.preshowexperience" name="PreShow Experience" version="0.2.3" provider-name="PreShowExperience">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+			<import addon="script.module.beautifulsoup4" version="4.9.3" />
+			<import addon="script.module.requests" version="2.22.0.1" />
+		</requires>
+		<extension point="xbmc.python.script" library="addon.py">
+			<provides>executable</provides>
+		</extension>
+		  <extension point="kodi.context.item" library="context.py">
+		<item>
+		  <label>32000</label>
+		  <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(seasons) | Container.Content(tvshows) | Container.Content(playlists)</visible>
+		</item>
+	  </extension>
+	  <extension point="xbmc.service" library="resources/lib/service.py" start="login" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Movie theater preshow experience</summary>
+			<description lang="en">Create a completely customizable movie preshow containing trivia, video bumpers or trailer for your home theater.</description>
+			<platform>all</platform>
+			<license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</license>
+			<forum>https://preshowexperience.com/forums/</forum>
+			<website>https://preshowexperience.com/</website>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+			<news>PreShow Experience for Kodi</news>
+		</extension>
+	</addon>
+    <addon id="script.preshowexperience" name="PreShow Experience" version="0.2.2" provider-name="PreShowExperience">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+			<import addon="script.module.beautifulsoup4" version="4.9.3" />
+			<import addon="script.module.requests" version="2.22.0.1" />
+		</requires>
+		<extension point="xbmc.python.script" library="addon.py">
+			<provides>executable</provides>
+		</extension>
+		  <extension point="kodi.context.item" library="context.py">
+		<item>
+		  <label>32000</label>
+		  <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(seasons) | Container.Content(tvshows) | Container.Content(playlists)</visible>
+		</item>
+	  </extension>
+	  <extension point="xbmc.service" library="resources/lib/service.py" start="login" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Movie theater preshow experience</summary>
+			<description lang="en">Create a completely customizable movie preshow containing trivia, video bumpers or trailer for your home theater.</description>
+			<platform>all</platform>
+			<license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</license>
+			<forum>https://preshowexperience.com/forums/</forum>
+			<website>https://preshowexperience.com/</website>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+			<news>PreShow Experience for Kodi</news>
+		</extension>
+	</addon>
+    <addon id="script.preshowexperience" name="PreShow Experience" version="0.2.1" provider-name="PreShowExperience">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+			<import addon="script.module.beautifulsoup4" version="4.9.3" />
+			<import addon="script.module.requests" version="2.22.0.1" />
+		</requires>
+		<extension point="xbmc.python.script" library="addon.py">
+			<provides>executable</provides>
+		</extension>
+		  <extension point="kodi.context.item" library="context.py">
+		<item>
+		  <label>32000</label>
+		  <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(seasons) | Container.Content(tvshows) | Container.Content(playlists)</visible>
+		</item>
+	  </extension>
+	  <extension point="xbmc.service" library="resources/lib/service.py" start="login" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Movie theater preshow experience</summary>
+			<description lang="en">Create a completely customizable movie preshow containing trivia, video bumpers or trailer for your home theater.</description>
+			<platform>all</platform>
+			<license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</license>
+			<forum>https://preshowexperience.com/forums/</forum>
+			<website>https://preshowexperience.com/</website>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+			<news>PreShow Experience for Kodi</news>
+		</extension>
+	</addon>
+    <addon id="script.preshowexperience" name="PreShow Experience" version="0.2.0" provider-name="PreShowExperience">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+			<import addon="script.module.beautifulsoup4" version="4.9.3" />
+			<import addon="script.module.requests" version="2.22.0.1" />
+		</requires>
+		<extension point="xbmc.python.script" library="addon.py">
+			<provides>executable</provides>
+		</extension>
+		  <extension point="kodi.context.item" library="context.py">
+		<item>
+		  <label>32000</label>
+		  <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(seasons) | Container.Content(tvshows) | Container.Content(playlists)</visible>
+		</item>
+	  </extension>
+	  <extension point="xbmc.service" library="resources/lib/service.py" start="login" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Movie theater preshow experience</summary>
+			<description lang="en">Create a completely customizable movie preshow containing trivia, video bumpers or trailer for your home theater.</description>
+			<platform>all</platform>
+			<license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</license>
+			<forum>https://preshowexperience.com/forums/</forum>
+			<website>https://preshowexperience.com/</website>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+			<news>PreShow Experience for Kodi</news>
+		</extension>
+	</addon>
+    <addon id="script.preshowexperience" name="PreShow Experience" version="0.1.3" provider-name="PreShowExperience">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+			<import addon="script.module.beautifulsoup4" version="4.9.3" />
+			<import addon="script.module.requests" version="2.22.0.1" />
+		</requires>
+		<extension point="xbmc.python.script" library="addon.py">
+			<provides>executable</provides>
+		</extension>
+		  <extension point="kodi.context.item" library="context.py">
+		<item>
+		  <label>32000</label>
+		  <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(seasons) | Container.Content(tvshows) | Container.Content(playlists)</visible>
+		</item>
+	  </extension>
+	  <extension point="xbmc.service" library="resources/lib/service.py" start="login" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Movie theater preshow experience</summary>
+			<description lang="en">Create a completely customizable movie preshow containing trivia, video bumpers or trailer for your home theater.</description>
+			<platform>all</platform>
+			<license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</license>
+			<forum>https://preshowexperience.com/forums/</forum>
+			<website>https://preshowexperience.com/</website>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+			<news>PreShow Experience for Kodi</news>
+		</extension>
+	</addon>	
+    <addon id="script.preshowexperience" name="PreShow Experience" version="0.1.2" provider-name="PreShowExperience">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+			<import addon="script.module.beautifulsoup4" version="4.9.3" />
+			<import addon="script.module.requests" version="2.22.0.1" />
+		</requires>
+		<extension point="xbmc.python.script" library="addon.py">
+			<provides>executable</provides>
+		</extension>
+		  <extension point="kodi.context.item" library="context.py">
+		<item>
+		  <label>32000</label>
+		  <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(seasons) | Container.Content(tvshows) | Container.Content(playlists)</visible>
+		</item>
+	  </extension>
+	  <extension point="xbmc.service" library="resources/lib/service.py" start="login" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Movie theater preshow experience</summary>
+			<description lang="en">Create a completely customizable movie preshow containing trivia, video bumpers or trailer for your home theater.</description>
+			<platform>all</platform>
+			<license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</license>
+			<forum>https://preshowexperience.com/forums/</forum>
+			<website>https://preshowexperience.com/</website>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+			<news>PreShow Experience for Kodi</news>
+		</extension>
+	</addon>		
+    <addon id="script.preshowexperience" name="PreShow Experience" version="0.1.1" provider-name="PreShowExperience">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0" />
+			<import addon="script.module.beautifulsoup4" version="4.9.3" />
+			<import addon="script.module.requests" version="2.22.0.1" />
+		</requires>
+		<extension point="xbmc.python.script" library="addon.py">
+			<provides>executable</provides>
+		</extension>
+		  <extension point="kodi.context.item" library="context.py">
+		<item>
+		  <label>32000</label>
+		  <visible>Container.Content(movies) | Container.Content(episodes) | Container.Content(seasons) | Container.Content(tvshows) | Container.Content(playlists)</visible>
+		</item>
+	  </extension>
+	  <extension point="xbmc.service" library="resources/lib/service.py" start="login" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Movie theater preshow experience</summary>
+			<description lang="en">Create a completely customizable movie preshow containing trivia, video bumpers or trailer for your home theater.</description>
+			<platform>all</platform>
+			<license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</license>
+			<forum>https://preshowexperience.com/forums/</forum>
+			<website>https://preshowexperience.com/</website>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+			<news>PreShow Experience for Kodi</news>
+		</extension>
+	</addon>					
+</addons>
